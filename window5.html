@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Final Gift</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>A final one just for you Cutuuu</h2>
+        <p>Your special video gift is playing below:</p>
+        
+        <video controls autoplay class="video-player">
+            <source src="{{ url_for('static', filename='birthday_video.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>

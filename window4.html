@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flowers!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Ek hi gift thodi denge aapko, Yeh lo flowers</h2>
+        <img src="{{ url_for('static', filename='flower.jpg') }}" alt="Flowers" class="gift-img">
+        <a href="{{ url_for('window5_final') }}" class="btn">Ek last click</a>
+    </div>
+</body>
+</html>
