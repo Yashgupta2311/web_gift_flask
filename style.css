@@ -1,0 +1,56 @@
+/* style.css */
+body {
+    background-color: #FFC0CB; /* Light Pink */
+    color: #8B0000; /* Dark Red text */
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+}
+
+h1, h2 {
+    color: #FF69B4; /* Hot Pink */
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #FF69B4; 
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    text-decoration: none; 
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #C71585; 
+}
+
+.gift-img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.video-player {
+    max-width: 100%;
+    margin-top: 20px;
+}
